@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Merriweather', serif;
+
+}
+.container {
+	width: 80%;
+	margin: 50px auto;
+}
+
+.container header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+	font-weight: normal;
+	font-size: 40px;
+}
+
+section {
+	text-align: center;
+	padding: 10px;
+	border-top: 3px solid #EEEEEE;
+	border-bottom: 3px solid #EEEEEE;
+	margin-top: 15px;
+	font-size: 13px;
+}
+
+nav {
+	font-size: 0px;
+	margin-top: 15px;
+	margin-right: -20px;
+}
+
+nav .article {
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	width: 25%;
+	font-size: 11px;
+}
+
+nav .article h3 {
+	font-size: 20px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+nav .article h3 i {
+	color: #DDDDDD;
+}
+
+nav .article p {
+	font-size: 11px;
+	padding-right: 20px;
+
+}
+
+footer {
+	display: block;
+	margin: 60px 0px;
+	text-align: center;
+}
+
+footer * {
+	display: inline-block;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+footer img {
+	width: 20px;
+	height: 20px;
+}
+
+footer h5 {
+	font-size: 13px;
+}
+
+footer span {
+	font-size: 10px;
+	color: #CCCCCC;
+}
